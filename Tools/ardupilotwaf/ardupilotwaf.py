@@ -111,6 +111,7 @@ COMMON_VEHICLE_DEPENDENT_LIBRARIES = [
     'AP_Torqeedo',
     'AP_CustomRotations',
     'AP_AIS',
+    'AP_TELEMETRY',
     'AP_OpenDroneID',
     'AP_CheckFirmware',
 ]

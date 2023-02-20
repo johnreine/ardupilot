@@ -46,6 +46,7 @@ class ExtractFeatures(object):
             ('AP_COMPASS_{type}_ENABLED', r'AP_Compass_(?P<type>.*)::read\b',),
 
             ('AP_AIS_ENABLED', 'AP_AIS::AP_AIS',),
+            ('AP_TELEMETRY_ENABLED', 'AP_TELEMETRY::AP_TELEMETRY',),
 
             ('HAL_EFI_ENABLED', 'AP_EFI::AP_EFI',),
             ('HAL_EFI_{type}_ENABLED', 'AP_EFI_(?P<type>.*)::update',),
